@@ -105,7 +105,7 @@ public class Dte {
     
     // subtracts n days from the Dte it is called with
     public void subDays(int daysToSub){
-       
+
         //every four year there is a leap year
         //if leap yea feb has 29 days
         if ((year % 4 == 0 && year%100==0 && year%400==0)){
@@ -162,6 +162,7 @@ public class Dte {
                 }
             }
         }
+
     }
     // addDays
     // adds n days to the Dte in the first argument
